@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+		<title>Compensate right</title>
+	</head>
+	<body>
+		<!-- Top Bar nevegation start HERE -->
+		<nav class="navbar">
+			<div class="container">
+				<div class="__wrapper">
+					<!-- Logo - ensure that the logo image has a meaningful alt description -->
+					<div class="nav_logo">
+						<a href="./index.php" aria-label="Home">
+							<img src="./img/logo.svg" alt="Company Name Logo" />
+						</a>
+					</div>
+
+					<div class="nav_menu">
+						<ul class="nav_list" role="list">
+							<!-- Ensure buttons have a clear purpose, consider using aria-label if needed -->
+							<li class="nav_item">
+								<button aria-label="Start my claim" class="btn btn-green">
+									Start my claim
+								</button>
+								<button aria-label="Request a callback" class="btn btn-blue">
+									Call me back
+								</button>
+							</li>
+
+							<li class="nav_item hidden-md">
+								<p>Call us FREE today</p>
+
+								<!-- Ensure phone links have clear descriptions -->
+								<a
+									href="tel:+4401274010101"
+									class="nav_link"
+									aria-label="Call us at 01274 010101"
+								>
+									01274 010101
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Top Bar nevegation end HERE -->
+
+		<!-- Hero section Start here -->
+		<section class="hero">
+			<div class="container">
+				<div class="heroText px-3" id="top">
+					<h1>Quick Claim Eligibility Checker</h1>
+					<p>
+						Utilize our straightforward online claim form checker to respond to
+						a few brief questions and gauge your eligibility to initiate a
+						claim.
+					</p>
+					<form class="dropdown">
+						<div class="boxDropdown">
+							<label for="claimType" class="visually-hidden"
+								>Select Claim Type</label
+							>
+							<select name="claimType" id="claimType">
+								<option value="" disabled selected>Select a claim type</option>
+								<option value="option1">option1</option>
+								<option value="option2">option2</option>
+							</select>
+						</div>
+						<button type="submit" class="btn btn-green">Start my claim</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Hero section End here -->
+
+		<!-- Features and Form section Start here -->
+		<section class="features px-3 section">
+			<div class="container">
+				<div class="features__wrapper">
+					<!-- Features section text-->
+					<div class="features__wrapper__items">
+						<article>
+							<img src="/img/win.svg" alt="" />
+							<aside>
+								<h3>Sure No Win, No Cost</h3>
+								<p>
+									If your claim stands, we operate on a no-win-no-charge. You
+									pay only when we clinch your deserved compensation.
+								</p>
+							</aside>
+						</article>
+						<article>
+							<img src="/img/expertise.svg" alt="" />
+							<aside>
+								<h3>Expertise You Can Trust</h3>
+								<p>
+									Our legal team, seasoned in numerous cases, is primed to guide
+									you to the reparation you rightfully seek.
+								</p>
+							</aside>
+						</article>
+						<article>
+							<img src="/img/smooth.svg" alt="" />
+							<aside>
+								<h3>Smooth & Swift</h3>
+								<p>
+									Once onboard with your case, relax as our dedicated team
+									ensures your compensation is secured!
+								</p>
+							</aside>
+						</article>
+					</div>
+
+					<!-- End Features section -->
+					<!-- Start Features Form -->
+
+					<aside class="form">
+						<div class="form__wrapper px-2 py-4">
+							<div class="form__wrapper__title">
+								<h2 class="titleForm">Find out if you have a claim</h2>
+								<p class="subtitleForm">
+									Get free, no obligation advice from claims specialists.
+								</p>
+							</div>
+
+							<form class="formInput">
+								<div class="form__wrapper__input">
+									<input
+										type="text"
+										id="name"
+										name="name"
+										placeholder=" "
+										required
+										aria-required="true"
+									/>
+									<label for="name">Your name:</label>
+								</div>
+
+								<div class="form__wrapper__input">
+									<input
+										type="tel"
+										id="phone"
+										name="phone"
+										placeholder=" "
+										required
+										aria-required="true"
+									/>
+									<label for="phone">Your phone:</label>
+								</div>
+
+								<div class="form__wrapper__input">
+									<input
+										type="email"
+										id="email"
+										name="email"
+										placeholder=" "
+										required
+										aria-required="true"
+									/>
+									<label for="email">Your email:</label>
+								</div>
+								<p class="formTerm">
+									We treat all personal data in accordance with our privacy
+									policy.
+								</p>
+
+								<button type="submit" class="btn btn-green">
+									Start my claim
+								</button>
+							</form>
+							<div class="form__wrapper__input"></div>
+						</div>
+					</aside>
+
+					<!-- End Features Form -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Features and Form section End here -->
+
+		<!-- Section CTA start here -->
+		<section class="cta section">
+			<div class="container">
+				<div class="cta__wrapper">
+					<p class="ctaTitle">Determine Your Claim Eligibility</p>
+					<p>
+						Engage with our intuitive online claim assessment tool. Answer a
+						handful of brief queries and quickly gauge your potential to stake a
+						claim.
+					</p>
+					<button type="submit" class="btn btn-green">Start my claim</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section CTA start here -->
+
+		<!-- Section Our Top Rated services start here -->
+
+		<main class="section main">
+			<div class="container">
+				<div class="main__wrapper">
+					<div class="title">
+						<h2>Our Top-Rated Services</h2>
+						<p>
+							Our adept team of legal advisors excels across various facets of
+							personal legal services. We comprehend the significance of
+							understanding who is championing your cause and navigating you
+							through your case.
+						</p>
+					</div>
+					<div class="main__services">
+						<article>
+							<img src="/img/injury.svg" alt="" />
+							<aside>
+								<h3>Personal Injury (Medical Negligence)</h3>
+								<p>
+									Aiding victims of medical negligence to navigate through the
+									legal maze, ensuring they receive due compensation for
+									injustices suffered in healthcare settings.
+								</p>
+							</aside>
+						</article>
+						<article>
+							<img src="/img/missold.svg" alt="" />
+							<aside>
+								<h3>
+									Mis-sold<br />
+									Pensions
+								</h3>
+								<p>
+									Expertly guiding you through the process to reclaim what is
+									rightfully yours, in instances where pensions have been
+									mis-sold, ensuring your retirement is worry-free.
+								</p>
+							</aside>
+						</article>
+						<article>
+							<img src="/img/shares.svg" alt="" />
+							<aside>
+								<h3>Mis-sold Investments (Shares)</h3>
+								<p>
+									Assisting you to recover your investments effectively when
+									they’ve been mis-sold, safeguarding your financial stability
+									with our expert advice.
+								</p>
+							</aside>
+						</article>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Section Our Top Rated services End here -->
+
+		<!-- FAQ section Starthere -->
+
+		<section class="section faq">
+			<div class="container">
+				<div class="faq__wrapper">
+					<div class="title">
+						<h2>FAQ</h2>
+						<p>
+							Delve into answers for some of the frequently posed questions
+							concerning personal injuries, accidents, mis-sold investments, and
+							medical negligence assertions.
+						</p>
+					</div>
+
+					<div class="accordion">
+						<div class="item active">
+							<h4 class="accordion__title">
+								Can I stake a claim?
+								<img src="/img/minus.svg" alt="Minus Icon" class="icon" />
+							</h4>
+							<div class="accordion__content">
+								<p>
+									If you've suffered an injury or ailment due to another's
+									negligence, there's a potential for compensation. At
+									Compensate Right, we've managed countless claims, spanning a
+									spectrum of injuries and maladies.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<h4 class="accordion__title">
+								What might my compensation amount to?
+								<img src="/img/Plus.svg" alt="Plus Icon" class="icon" />
+							</h4>
+							<div class="accordion__content">
+								<p>Answer for this question (can be expanded when clicked)</p>
+							</div>
+						</div>
+						<div class="item">
+							<h4 class="accordion__title">
+								What does ‘No Success, No Charge’ entail?
+								<img src="/img/Plus.svg" alt="Plus Icon" class="icon" />
+							</h4>
+							<div class="accordion__content">
+								<p>Answer for this question (can be expanded when clicked)</p>
+							</div>
+						</div>
+						<div class="item">
+							<h4 class="accordion__title">
+								How do I initiate my compensation journey?
+								<img src="/img/Plus.svg" alt="Plus Icon" class="icon" />
+							</h4>
+							<div class="accordion__content">
+								<p>Answer for this question (can be expanded when clicked)</p>
+							</div>
+						</div>
+						<div class="item">
+							<h4 class="accordion__title">
+								Claiming Made Effortless
+								<img src="/img/Plus.svg" alt="Plus Icon" class="icon" />
+							</h4>
+							<div class="accordion__content">
+								<p>Answer for this question (can be expanded when clicked)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ section END here -->
+
+		<!-- Qualify section Start here -->
+		<section class="section qualify">
+			<div class="container">
+				<div class="qualify__wrapper">
+					<div class="title">
+						<h2>CHECK IF I QUALIFY</h2>
+						<p>
+							Our expert panel of solicitors can typically confirm almost
+							immediately whether your claims application is likely to be
+							successful and also give you an indication of how much you could
+							potentially claim for.
+						</p>
+					</div>
+
+					<div class="qualify__actions">
+						<a href="#top" type="button" class="btn btn-outline">
+							Start my claim
+						</a>
+						<a href="#top" type="button" class="btn btn-blue"> Call me back </a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Qualify section End here -->
+
+
+		
+
+		<!-- Footer section start HERE -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<img src="/img/logo.svg" alt="compensate" />
+
+					<div class="footer__columns">
+						<div class="footer__column">
+							<small>
+								We may receive payments for our services from our legal
+								partners. We do not charge our customers and website users any
+								fees. Legal partners typically keep up to 25% of the amount
+								recovered on a successful claim to cover their costs and
+								services charge. Termination fees might apply if you terminate
+								the agreement with your solicitor after the 14 day cancellation
+								period.<br /><br />You do not need to use a Claims Management
+								company to make a claim against your financial provider, you can
+								do this yourself for free and if not successful, you can refer
+								it to the Financial Ombudsman or the Financial Service
+								Compensation Scheme if it falls under their remit.
+							</small>
+						</div>
+
+						<div class="footer__column">
+							<p class="footerTitle">Contact</p>
+
+							<a href="tel:+4401274010101" aria-label="Call us">
+								01274 010101
+							</a>
+
+							<a href="mailto:info@compensateright.com" aria-label="Email us"
+								>info@compensateright.com</a
+							>
+						</div>
+					</div>
+
+					<p class="license">
+						Amesmo Ltd is Authorised and Regulated by the Financial Conduct
+						Authority and is entered on the Financial Services Register under
+						number 820864. Registered with the Information Commissioners Office
+						(Registration number ZA455421).
+					</p>
+
+					<div class="footerCopyright">
+						<div class="footer__terms">
+							<p>© 2023 CompensateRight</p>
+							<a class="termsLink" href="/terms.html">Terms & Conditions</a>
+							<a class="termsLink" href="/privacy.html">Privacy Policy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Footer section End HERE -->
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
